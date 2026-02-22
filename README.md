@@ -28,15 +28,13 @@ cd your-repo-name
 python todo_app.py
 
 🎮 How the Application Works
-- The user is presented with a menu:
+1) The user is presented with a menu:
 1. Add a new task
 2. View all tasks
 3. Delete a task
 4. Quit
-
-- Tasks are stored in a Python list during runtime.
-
-When deleting a task:
+2) Tasks are stored in a Python list during runtime.
+3) When deleting a task:
 - The user selects the task number.
 - Input validation ensures only valid numbers are accepted.
 - Proper index adjustment prevents off-by-one errors.
@@ -50,12 +48,17 @@ Welcome to the To-Do List app :)
 4. Quit
 
 Enter your choice: 1
+
 Please enter a task to add: Complete Python project
+
 Your task - 'Complete Python project' has been added to the list.
 
 Enter your choice: 2
+
 Current Tasks are:
+
 Task #1. Complete Python project
+
 
 🧠 Concepts Practiced
 - Functions and modular code
