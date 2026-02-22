@@ -29,10 +29,10 @@ python todo_app.py
 
 🎮 How the Application Works
 1) The user is presented with a menu:
-1. Add a new task
-2. View all tasks
-3. Delete a task
-4. Quit
+-- 1. Add a new task
+-- 2. View all tasks
+-- 3. Delete a task
+-- 4. Quit
 2) Tasks are stored in a Python list during runtime.
 3) When deleting a task:
 - The user selects the task number.
